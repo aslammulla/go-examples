@@ -41,3 +41,20 @@ func main() {
 	fmt.Println("After Clear - Size:", strStack.Size())       // Output: 0
 	fmt.Println("After Clear - IsEmpty:", strStack.IsEmpty()) // Output: true
 }
+
+/*
+OUTPUT:
+$ go run main.go
+Popped: 2 true
+Peek: 1 true
+Size: 1
+IsEmpty: false
+After Clear - Size: 0
+After Clear - IsEmpty: true
+Popped: world true
+Peek: hello true
+Size: 1
+IsEmpty: false
+After Clear - Size: 0
+After Clear - IsEmpty: true
+*/
