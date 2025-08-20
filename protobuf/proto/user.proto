@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "github.com/aslammulla/grpcdemo/userpb";
+
+message User {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+  repeated string skills = 4;
+}

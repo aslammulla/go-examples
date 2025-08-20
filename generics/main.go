@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode-go/Aslam/Go-Projects/go-examples/generics/stack"
+	"go-kafka/go-examples/generics/stack"
 )
 
 func main() {
