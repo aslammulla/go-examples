@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package product;
+
+// Add this line below the package declaration:
+option go_package = "../productpb";
+
+service ProductService {
+    rpc GetProduct (ProductRequest) returns (ProductReply);
+}
+
+message ProductRequest {
+    string id = 1;
+}
+
+message ProductReply {
+    string id = 1;
+    string name = 2;
+    string description = 3;
+    double price = 4;
+}
